@@ -115,7 +115,7 @@ Software shutdowns do not replace independent hardware thermal protection.
 - [BOM.md](BOM.md): parts and safety hardware
 - [PIN_MAPPING.md](PIN_MAPPING.md): complete low-voltage wiring
 - [FIRMWARE.md](FIRMWARE.md): operation and tuning details
+- [breadboard-tests/README.md](breadboard-tests/README.md): isolated component test firmware
 - [IMPLEMENTATION_OUTLINE.md](IMPLEMENTATION_OUTLINE.md): design and validation plan
 - [thermal-oven.kicad_sch](thermal-oven.kicad_sch): KiCad 10 schematic
 - [thermal-oven.pdf](thermal-oven.pdf): rendered schematic
-
