@@ -1,0 +1,891 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "00000000-0000-4000-8000-000000000001")
+	(paper "A3")
+	(title_block
+		(title "PID Thermal Oven Controller - Module Wiring")
+		(date "2026-06-13")
+		(rev "0.1")
+		(company "Prototype - verify module pinouts before wiring")
+		(comment 1 "Mains section requires qualified review and independent over-temperature protection")
+		(comment 2 "Exact display, Nano, and module pinouts remain to be verified")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 15 20) (xy 195 20)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000010")
+	)
+	(wire
+		(pts
+			(xy 195 20) (xy 195 185)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000011")
+	)
+	(wire
+		(pts
+			(xy 195 185) (xy 15 185)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000012")
+	)
+	(wire
+		(pts
+			(xy 15 185) (xy 15 20)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000013")
+	)
+	(wire
+		(pts
+			(xy 80 45) (xy 130 45)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000020")
+	)
+	(wire
+		(pts
+			(xy 130 45) (xy 130 125)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000021")
+	)
+	(wire
+		(pts
+			(xy 130 125) (xy 80 125)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000022")
+	)
+	(wire
+		(pts
+			(xy 80 125) (xy 80 45)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000023")
+	)
+	(wire
+		(pts
+			(xy 25 45) (xy 65 45)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000030")
+	)
+	(wire
+		(pts
+			(xy 65 45) (xy 65 75)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000031")
+	)
+	(wire
+		(pts
+			(xy 65 75) (xy 25 75)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000032")
+	)
+	(wire
+		(pts
+			(xy 25 75) (xy 25 45)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000033")
+	)
+	(wire
+		(pts
+			(xy 65 52) (xy 80 52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000037")
+	)
+	(wire
+		(pts
+			(xy 65 60) (xy 80 60)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000039")
+	)
+	(wire
+		(pts
+			(xy 25 90) (xy 65 90)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000040")
+	)
+	(wire
+		(pts
+			(xy 65 90) (xy 65 120)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000041")
+	)
+	(wire
+		(pts
+			(xy 65 120) (xy 25 120)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000042")
+	)
+	(wire
+		(pts
+			(xy 25 120) (xy 25 90)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000043")
+	)
+	(wire
+		(pts
+			(xy 65 100) (xy 80 100)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000046")
+	)
+	(wire
+		(pts
+			(xy 65 108) (xy 80 108)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000048")
+	)
+	(wire
+		(pts
+			(xy 145 45) (xy 185 45)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000050")
+	)
+	(wire
+		(pts
+			(xy 185 45) (xy 185 90)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000051")
+	)
+	(wire
+		(pts
+			(xy 185 90) (xy 145 90)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000052")
+	)
+	(wire
+		(pts
+			(xy 145 90) (xy 145 45)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000053")
+	)
+	(wire
+		(pts
+			(xy 130 62) (xy 145 62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000058")
+	)
+	(wire
+		(pts
+			(xy 145 105) (xy 185 105)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000060")
+	)
+	(wire
+		(pts
+			(xy 185 105) (xy 185 135)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000061")
+	)
+	(wire
+		(pts
+			(xy 185 135) (xy 145 135)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000062")
+	)
+	(wire
+		(pts
+			(xy 145 135) (xy 145 105)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000063")
+	)
+	(wire
+		(pts
+			(xy 130 115) (xy 145 115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000067")
+	)
+	(wire
+		(pts
+			(xy 25 145) (xy 185 145)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000070")
+	)
+	(wire
+		(pts
+			(xy 185 145) (xy 185 175)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000071")
+	)
+	(wire
+		(pts
+			(xy 185 175) (xy 25 175)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000072")
+	)
+	(wire
+		(pts
+			(xy 25 175) (xy 25 145)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000073")
+	)
+	(wire
+		(pts
+			(xy 210 20) (xy 405 20)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000080")
+	)
+	(wire
+		(pts
+			(xy 405 20) (xy 405 185)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000081")
+	)
+	(wire
+		(pts
+			(xy 405 185) (xy 210 185)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000082")
+	)
+	(wire
+		(pts
+			(xy 210 185) (xy 210 20)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000083")
+	)
+	(wire
+		(pts
+			(xy 220 65) (xy 245 65)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000090")
+	)
+	(wire
+		(pts
+			(xy 245 65) (xy 270 65)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000091")
+	)
+	(wire
+		(pts
+			(xy 270 65) (xy 300 65)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000092")
+	)
+	(wire
+		(pts
+			(xy 300 65) (xy 330 65)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000093")
+	)
+	(wire
+		(pts
+			(xy 330 65) (xy 360 65)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000094")
+	)
+	(wire
+		(pts
+			(xy 360 65) (xy 395 65)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-000000000095")
+	)
+	(wire
+		(pts
+			(xy 395 65) (xy 395 100)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-0000000000a0")
+	)
+	(wire
+		(pts
+			(xy 395 100) (xy 350 100)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-0000000000a1")
+	)
+	(wire
+		(pts
+			(xy 350 110) (xy 245 110)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-0000000000a3")
+	)
+	(wire
+		(pts
+			(xy 220 140) (xy 395 140)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "00000000-0000-4000-8000-0000000000a5")
+	)
+	(label "LOW-VOLTAGE CONTROLLER / SELV"
+		(at 20 25 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000014")
+	)
+	(label "A1  ARDUINO NANO ATmega328P"
+		(at 84 51 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000024")
+	)
+	(label "5 V controller; assign firmware pins after verifying board"
+		(at 84 57 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000025")
+	)
+	(label "A2  MAX6675 MODULE"
+		(at 29 51 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000034")
+	)
+	(label "GND  VCC  SCK  CS  SO"
+		(at 29 58 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000035")
+	)
+	(label "J2: K-type probe to T+ / T-"
+		(at 29 65 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000036")
+	)
+	(label "+5V / GND"
+		(at 70 52 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000038")
+	)
+	(label "TC_SCK / TC_CS / TC_SO"
+		(at 66 60 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-00000000003a")
+	)
+	(label "A3  ROTARY ENCODER MODULE"
+		(at 29 96 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000044")
+	)
+	(label "GND  VCC  SW  DT  CLK"
+		(at 29 103 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000045")
+	)
+	(label "+5V / GND"
+		(at 70 100 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000047")
+	)
+	(label "ENC_SW / ENC_DT / ENC_CLK"
+		(at 66 108 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000049")
+	)
+	(label "U1  MAX7219 DISPLAY DRIVER"
+		(at 149 51 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000054")
+	)
+	(label "DIN  CLK  LOAD  +5V  GND"
+		(at 149 58 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000055")
+	)
+	(label "DS1: 4-digit common-cathode display"
+		(at 149 68 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000056")
+	)
+	(label "Verify display pinout; add ISET resistor"
+		(at 149 75 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000057")
+	)
+	(label "DISP_DIN / DISP_CLK / DISP_LOAD"
+		(at 131 62 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000059")
+	)
+	(label "Q1  SSR INPUT DRIVER"
+		(at 149 111 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000064")
+	)
+	(label "Nano -> 1k -> 2N2222 base"
+		(at 149 118 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000065")
+	)
+	(label "10k base pulldown; SSR+ to +5V"
+		(at 149 125 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000066")
+	)
+	(label "SSR_DRIVE"
+		(at 132 115 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000068")
+	)
+	(label "PS1  APPROVED ISOLATED 5 V SUPPLY, >= 1 A"
+		(at 29 151 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000074")
+	)
+	(label "Distribute +5V/GND; 100 nF at Nano, MAX6675, MAX7219; 10 uF bulk at MAX7219"
+		(at 29 159 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000075")
+	)
+	(label "BZ1: 5 V active buzzer from Nano output; use transistor if required by buzzer current"
+		(at 29 166 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000076")
+	)
+	(label "HAZARDOUS MAINS / HEATER POWER"
+		(at 215 25 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000084")
+	)
+	(label "Qualified review required. Ratings must follow oven nameplate and local requirements."
+		(at 215 33 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000085")
+	)
+	(label "J7 LINE"
+		(at 220 65 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000096")
+	)
+	(label "F1 MAIN FUSE"
+		(at 245 65 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000097")
+	)
+	(label "SW1 2-POLE MAIN"
+		(at 270 65 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000098")
+	)
+	(label "SW2 E-STOP NC"
+		(at 300 65 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-000000000099")
+	)
+	(label "TH1 HIGH-LIMIT NC"
+		(at 330 65 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-00000000009a")
+	)
+	(label "F2 THERMAL FUSE"
+		(at 360 65 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-00000000009b")
+	)
+	(label "A4 SSR AC OUT"
+		(at 388 65 180)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify right bottom)
+		)
+		(uuid "00000000-0000-4000-8000-00000000009c")
+	)
+	(label "J9 OVEN HEATING ELEMENTS"
+		(at 350 100 0)
+		(effects
+			(font
+				(size 1.4 1.4)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-0000000000a2")
+	)
+	(label "NEUTRAL through second pole of SW1"
+		(at 245 110 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-0000000000a4")
+	)
+	(label "PROTECTIVE EARTH -> dedicated chassis bond and every exposed metal part"
+		(at 225 140 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-0000000000a6")
+	)
+	(label "PE must never be switched or fused."
+		(at 225 150 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-0000000000a7")
+	)
+	(label "SSR commonly fails closed: TH1 and F2 must interrupt heat without firmware."
+		(at 225 165 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-0000000000a8")
+	)
+	(label "Mount SSR outside hot chamber on a verified heat sink; confirm actual terminal numbering."
+		(at 225 175 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "00000000-0000-4000-8000-0000000000a9")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
