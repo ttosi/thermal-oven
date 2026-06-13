@@ -10,7 +10,7 @@
 		(rev "0.1")
 		(company "Prototype - verify module pinouts before wiring")
 		(comment 1 "Mains section requires qualified review and independent over-temperature protection")
-		(comment 2 "Exact display, Nano, and module pinouts remain to be verified")
+		(comment 2 "LCD1602 uses I2C adapter on Nano A4/SDA and A5/SCL; verify adapter address")
 	)
 	(lib_symbols)
 	(wire
@@ -613,7 +613,7 @@
 		)
 		(uuid "00000000-0000-4000-8000-000000000049")
 	)
-	(label "U1  MAX7219 DISPLAY DRIVER"
+	(label "A5 + DS1  I2C ADAPTER + LCD1602"
 		(at 149 51 0)
 		(effects
 			(font
@@ -623,7 +623,7 @@
 		)
 		(uuid "00000000-0000-4000-8000-000000000054")
 	)
-	(label "DIN  CLK  LOAD  +5V  GND"
+	(label "SDA  SCL  +5V  GND"
 		(at 149 58 0)
 		(effects
 			(font
@@ -633,7 +633,7 @@
 		)
 		(uuid "00000000-0000-4000-8000-000000000055")
 	)
-	(label "DS1: 4-digit common-cathode display"
+	(label "Nano A4/SDA and A5/SCL; firmware address 0x27"
 		(at 149 68 0)
 		(effects
 			(font
@@ -643,7 +643,7 @@
 		)
 		(uuid "00000000-0000-4000-8000-000000000056")
 	)
-	(label "Verify display pinout; add ISET resistor"
+	(label "Verify I2C address; adjust backpack contrast potentiometer"
 		(at 149 75 0)
 		(effects
 			(font
@@ -653,7 +653,7 @@
 		)
 		(uuid "00000000-0000-4000-8000-000000000057")
 	)
-	(label "DISP_DIN / DISP_CLK / DISP_LOAD"
+	(label "LCD_SDA / LCD_SCL"
 		(at 131 62 0)
 		(effects
 			(font
@@ -713,7 +713,7 @@
 		)
 		(uuid "00000000-0000-4000-8000-000000000074")
 	)
-	(label "Distribute +5V/GND; 100 nF at Nano, MAX6675, MAX7219; 10 uF bulk at MAX7219"
+	(label "Distribute +5V/GND; 100 nF at Nano/MAX6675; 10 uF bulk near LCD adapter"
 		(at 29 159 0)
 		(effects
 			(font

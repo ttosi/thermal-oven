@@ -22,7 +22,7 @@ flux. Operate it with suitable ventilation and follow each material's SDS.
 - Arduino Nano ATmega328P
 - MAX6675 module and K-type thermocouple
 - SSR-25DA AC solid-state relay
-- 7-segment display
+- LCD1602 display with I2C adapter
 - Rotary encoder with push button
 
 These parts are enough to prototype temperature measurement, user input, and
@@ -50,8 +50,7 @@ time-proportioned heater control. They are not enough for a safe finished oven.
   validating temperature uniformity and detecting sensor/control faults
 - A removable board-level thermocouple for reflow and a fixed chamber/load
   thermocouple for resin mode
-- A small OLED/LCD, or a clearly specified multi-digit display and driver
-  module; a bare 7-segment digit is not enough for profile editing and faults
+- Verify the LCD1602 I2C adapter address and connector pinout before wiring
 - A heat-rated circulation fan if testing shows unacceptable hot/cold spots
 - Door switch if the desired behavior is to disable heat whenever the door is
   open
