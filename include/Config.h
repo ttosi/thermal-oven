@@ -2,7 +2,8 @@
 
 #include <Arduino.h>
 
-namespace Config {
+namespace Config
+{
 
 constexpr uint8_t PIN_ENCODER_CLK = 2;
 constexpr uint8_t PIN_ENCODER_DT = 3;
@@ -12,7 +13,6 @@ constexpr uint8_t PIN_THERMOCOUPLE_CS = 6;
 constexpr uint8_t PIN_THERMOCOUPLE_SCK = 7;
 constexpr uint8_t PIN_THERMOCOUPLE_SO = 8;
 
-constexpr uint8_t LCD_ADDRESS = 0x27;
 constexpr uint8_t LCD_COLUMNS = 16;
 constexpr uint8_t LCD_ROWS = 2;
 
@@ -34,4 +34,4 @@ constexpr double PID_KP = 8.0;
 constexpr double PID_KI = 0.25;
 constexpr double PID_KD = 30.0;
 
-}  // namespace Config
+} // namespace Config

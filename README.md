@@ -78,7 +78,7 @@ automatically:
 
 - PID
 - MAX6675 library
-- LiquidCrystal_I2C
+- hd44780 with auto-detecting I2C backpack support
 
 ## PID Tuning
 

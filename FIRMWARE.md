@@ -14,8 +14,9 @@
 | LCD adapter `SDA` | `A4` |
 | LCD adapter `SCL` | `A5` |
 
-The LCD firmware address defaults to `0x27`. Change `LCD_ADDRESS` in
-`include/Config.h` if an I2C scan reports a different address.
+The LCD driver auto-detects common I2C adapter addresses and backpack pin
+mappings. Use the breadboard `i2c_scanner` and `lcd1602` tests when diagnosing
+an adapter.
 
 ## Controls
 

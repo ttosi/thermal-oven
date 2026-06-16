@@ -10,7 +10,7 @@
 | 1 | SSR-25DA solid-state relay module | [Amazon](https://a.co/d/06sf6czt) | A4 | DC input, AC output; mount to a correctly sized heat sink |
 | 1 | Rotary encoder with push button | [Amazon](https://a.co/d/00znrNOg) | A3 | Module pins assumed `GND`, `VCC`, `SW`, `DT`, `CLK`; verify before wiring |
 | 1 | LCD1602 16x2 character display | [SunFounder wiki](http://wiki.sunfounder.cc/index.php?title=LCD1602_Module) | DS1 | Driven through the I2C adapter |
-| 1 | LCD1602 I2C adapter extended board | [Amazon](https://a.co/d/0b7io4Lv) | A5 | Default firmware address is `0x27`; verify with an I2C scanner |
+| 1 | LCD1602 I2C adapter extended board | [Amazon](https://a.co/d/0b7io4Lv) | A5 | Address and backpack pin mapping are auto-detected; verify with the breadboard diagnostics |
 
 ## Required Controller Electronics
 

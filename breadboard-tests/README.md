@@ -25,7 +25,7 @@ before any powered heater test.
 | Environment | Source | Purpose |
 |---|---|---|
 | `i2c_scanner` | `src/01_i2c_scanner.cpp` | Finds the LCD adapter I2C address |
-| `lcd1602` | `src/02_lcd1602.cpp` | Displays a continuously increasing counter |
+| `lcd1602` | `src/02_lcd1602.cpp` | Auto-detects the backpack mapping and displays a counter |
 | `rotary_encoder` | `src/03_rotary_encoder.cpp` | Reports rotation and button events over serial |
 | `max6675` | `src/04_max6675.cpp` | Reports thermocouple temperature over serial |
 | `ssr_driver` | `src/05_ssr_driver.cpp` | Cycles the low-voltage driver output, then stops |
@@ -84,3 +84,25 @@ Open the serial monitor for tests that produce serial output:
 | LCD I2C `SCL` | `A5` |
 
 All low-voltage modules must share controller `GND`.
+
+## LCD Troubleshooting
+
+The LCD tests use `hd44780_I2Cexp`, which auto-detects common PCF8574/MCP23008
+adapter addresses and pin mappings. This avoids the garbled output caused by
+libraries that assume one fixed backpack wiring layout.
+
+If text remains faint or garbled:
+
+1. Run `i2c_scanner` and confirm exactly one adapter address is reported.
+2. Measure between LCD adapter `VCC` and `GND`; it should be close to `5 V`.
+3. Confirm `SDA -> A4`, `SCL -> A5`, and a shared `GND`.
+4. Inspect/reflow all 16 solder joints between the adapter and LCD. Verify the
+   adapter is not shifted by one pin or installed backward.
+5. Turn the contrast potentiometer slowly through its full range. One extreme
+   should normally show solid character blocks before initialization.
+6. Test with short jumper wires and only the LCD connected.
+
+The contrast potentiometer controls character darkness, not the LED backlight.
+A bright backlight with nearly invisible characters usually indicates an
+incorrect contrast voltage, poor LCD-adapter connection, or insufficient
+supply voltage.

@@ -1,28 +1,46 @@
 #include <Arduino.h>
-#include <LiquidCrystal_I2C.h>
+#include <Wire.h>
+#include <hd44780.h>
+#include <hd44780ioClass/hd44780_I2Cexp.h>
 
 #include "../include/TestPins.h"
 
-namespace {
+namespace
+{
 
-LiquidCrystal_I2C lcd(TestPins::LCD_ADDRESS, TestPins::LCD_COLUMNS,
-                      TestPins::LCD_ROWS);
-uint32_t lastUpdateAtMs = 0;
-uint32_t counter = 0;
+  hd44780_I2Cexp lcd;
+  uint32_t lastUpdateAtMs = 0;
+  uint32_t counter = 0;
 
-}  // namespace
+} // namespace
 
-void setup() {
-  lcd.init();
+void setup()
+{
+  Serial.begin(115200);
+  Serial.println(F("LCD auto-detection test"));
+
+  const int status = lcd.begin(TestPins::LCD_COLUMNS, TestPins::LCD_ROWS);
+  if (status != 0)
+  {
+    Serial.print(F("LCD initialization failed, status="));
+    Serial.println(status);
+    Serial.println(F("Run i2c_scanner and check 5V, GND, SDA, SCL, and soldering."));
+    while (true)
+    {
+    }
+  }
+
+  Serial.println(F("LCD detected and initialized."));
   lcd.backlight();
-  lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print(F("LCD1602 test"));
 }
 
-void loop() {
+void loop()
+{
   const uint32_t now = millis();
-  if (now - lastUpdateAtMs < 500) {
+  if (now - lastUpdateAtMs < 500)
+  {
     return;
   }
   lastUpdateAtMs = now;

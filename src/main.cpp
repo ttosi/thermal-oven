@@ -4,10 +4,12 @@
 
 OvenController oven;
 
-void setup() {
-  oven.begin();
+void setup()
+{
+    oven.begin();
 }
 
-void loop() {
-  oven.update();
+void loop()
+{
+    oven.update();
 }
